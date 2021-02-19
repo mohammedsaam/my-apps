@@ -5,3 +5,11 @@ export const addNewGroup = (name, id) => ({
       id,
     },
   });
+
+  export const addNewUser = (name,id)=>({
+      type:"ADD_NEW_USER",
+      Users:{
+          name, id,
+      },
+
+  });

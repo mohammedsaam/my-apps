@@ -2,6 +2,7 @@ import React from 'react';
 import { Child } from './Child';
 
 
+
 export  const Parents = () => {
     const PersonName="Rabey";
     const PersonAge="18";

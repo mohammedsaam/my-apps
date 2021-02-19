@@ -5,7 +5,7 @@ export const groupReducer = (state = groupsDefaultState, action) => {
         default :
 
 return state;
-console.log("state");
+
     }
   };
   
