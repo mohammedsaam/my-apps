@@ -6,7 +6,7 @@ class PropsWithClassChild extends Component{
              <p onClick={this.props.link}>
                 my name is {this.props.name} my age is {this.props.Age} 
              </p>
-             <input type="text" onChange={this.props.change} />
+             {/* <input type="text" onChange={this.props.change} /> */}
             </div>
         )
     }

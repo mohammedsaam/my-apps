@@ -35,7 +35,7 @@ import PropsWithClassChild from "./PropsWithClassChild";
          return (
              
              <div> 
-                <h1>heloo</h1>
+                {/* <h1>heloo</h1> */}
                  <PropsWithClassChild name={this.state.person[0].name} Age={this.state.person[0].age} />
                  <PropsWithClassChild name={this.state.person[1].name} Age={this.state.person[1].age} occupation="pickupbiz" />
                  <PropsWithClassChild name={this.state.person[2].name} Age={this.state.person[2].age} occupation="pickupbiz" 

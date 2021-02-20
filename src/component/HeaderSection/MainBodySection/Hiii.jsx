@@ -22,9 +22,9 @@ const handleDeletecounter = () => {
                 Delete Number
 
             </button>
-            {/* <h2>
+            <h2>
                 decrease number...
-            </h2> */}
+            </h2>
 
         </div>
     );
