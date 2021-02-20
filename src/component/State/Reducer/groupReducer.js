@@ -13,12 +13,12 @@ return state;
     groups: [
       {
         name: "Redux Practical",
-        image: "Assets/Rose.jpg",
+        image: "https://images.unsplash.com/photo-1575152046278-adb86343e2a8?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDN8NnNNVmpUTFNrZVF8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
         desc: "This Is First Group Created With Redux",
       },
       {
         name: "Learning Redux",
-        image: "Assets/Rose.jpg",
+        image: "https://images.unsplash.com/photo-1575152046278-adb86343e2a8?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDN8NnNNVmpUTFNrZVF8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
         desc: "This Is First Group Created With Redux",
       },
       {
