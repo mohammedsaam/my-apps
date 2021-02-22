@@ -8,9 +8,9 @@ function FetchingDataFromReduxParent() {
     const selector1 = useSelector(getAllUsers);
 const [groupData, setGroupData] = useState(selector);
 const [userData , setUserData] = useState(selector1);
-useEffect(() => {
-    setGroupData(selector);
-}, [selector])
+// useEffect(() => {
+//     setGroupData(selector);
+// }, [selector])
 
 console.log(groupData ,userData);
 
