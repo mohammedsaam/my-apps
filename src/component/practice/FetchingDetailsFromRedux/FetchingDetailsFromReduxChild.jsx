@@ -8,8 +8,9 @@ function FetchingDetailsFromReduxChild({currentitem}) {
    
     return (
         <div>
-       <h1>{currentitem.name}</h1> 
-         <img src={currentitem.image} width="200px" height="150px" alt="hii"/>
+       <h3>{currentitem.name}</h3> 
+       <hr/>
+         <img src={currentitem.image} width="200px" height="150px" border="3px solid black"  alt="hii"/>
          
         </div>
     )

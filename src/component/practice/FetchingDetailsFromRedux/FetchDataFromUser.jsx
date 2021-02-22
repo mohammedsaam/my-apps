@@ -1,11 +1,12 @@
 import React from 'react';
-import { useDispatch } from 'react-redux'
 
 const FetchDataFromUser = ({freshData}) => {
-    const dispatch= useDispatch();
     return (
         <div>
-            <h1>{freshData.name}</h1>
+            <h3>{freshData.name}</h3>
+            <hr/>
+            <img src={freshData.image} width="200px" height="200px"  border="1px solid black"  alt="hello"/>
+               <h4>{freshData.desc}</h4>
         </div>
     );
 };
